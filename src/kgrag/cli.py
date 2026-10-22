@@ -99,7 +99,7 @@ def build_parser() -> argparse.ArgumentParser:
     a.add_argument("question")
     a.add_argument("--retriever", choices=RETRIEVERS, default="hybrid")
     a.add_argument("--k", type=int, default=20)
-    a.add_argument("--llm", choices=("stub", "anthropic", "auto"), default="stub")
+    a.add_argument("--llm", choices=("stub", "hosted", "auto"), default="stub")
     a.add_argument("--graph", type=Path, default=DEFAULT_GRAPH)
     a.set_defaults(func=cmd_ask)
 

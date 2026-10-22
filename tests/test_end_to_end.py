@@ -41,11 +41,17 @@ def test_stub_reader_recovers_misspelled_entity_from_context(pipe, questions):
 
 
 def test_make_llm_defaults_offline(kg, monkeypatch):
-    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    for name in ("LLM_API_URL", "LLM_API_KEY", "LLM_MODEL"):
+        monkeypatch.delenv(name, raising=False)
     assert not hosted_available()
     assert isinstance(make_llm("auto", kg), StubLLM)
     with pytest.raises(RuntimeError):
-        make_llm("anthropic", kg)
+        make_llm("hosted", kg)
+    # A partial configuration is still unavailable: there are no defaults for URL or model.
+    monkeypatch.setenv("LLM_API_KEY", "test")
+    monkeypatch.setenv("LLM_API_URL", "http://localhost.invalid/v1/chat/completions")
+    assert not hosted_available()
+    assert isinstance(make_llm("auto", kg), StubLLM)
 
 
 def test_bundled_questions_are_reproducible(kg, questions):

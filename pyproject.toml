@@ -21,7 +21,6 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "ruff>=0.5"]
-llm = ["anthropic>=0.40"]
 embeddings = ["sentence-transformers>=3.0"]
 
 [project.scripts]

@@ -74,7 +74,7 @@ ruff check .
 pytest
 ```
 
-`kgrag ask` prints the linked entities, the selected schema path, the fusion weights, the retrieved facts with their source abstracts, any ontology facts it used, the answer, and the provenance triples. Optional extras: `pip install -e ".[llm]"` enables the hosted provider adapter (selected with `--llm auto` once its API key is set in the environment, see `src/kgrag/llm.py`). `pip install -e ".[embeddings]"` enables a neural sentence embedder for the dense retriever. Neither is needed by the tests.
+`kgrag ask` prints the linked entities, the selected schema path, the fusion weights, the retrieved facts with their source abstracts, any ontology facts it used, the answer, and the provenance triples. Optional hosted reader: set `LLM_API_URL` (a JSON chat-completions style endpoint), `LLM_API_KEY` and `LLM_MODEL`, then select it with `--llm hosted` (or `--llm auto`, which falls back to the stub when any of the three is missing). It needs no extra package (see `src/kgrag/llm.py`); the hosted judge uses the same variables, with an optional `KGRAG_JUDGE_MODEL` override. Optional extra: `pip install -e ".[embeddings]"` enables a neural sentence embedder for the dense retriever. Neither is needed by the tests.
 
 ## Design decisions
 

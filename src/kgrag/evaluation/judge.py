@@ -95,9 +95,9 @@ class HostedJudge:  # pragma: no cover - requires network and an API key
     name = "hosted-judge"
 
     def __init__(self) -> None:
-        from kgrag.llm import AnthropicLLM
+        from kgrag.llm import HostedLLM
 
-        self.llm = AnthropicLLM(model=os.environ.get("KGRAG_JUDGE_MODEL"))
+        self.llm = HostedLLM(model=os.environ.get("KGRAG_JUDGE_MODEL"))
 
     def judge(self, question: str, gold: list[str], answer_items: list[str], facts: list[str]) -> Verdict:
         from kgrag.llm import parse_json_object
