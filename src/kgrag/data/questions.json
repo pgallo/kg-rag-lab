@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "q01",
+    "category": "single-hop",
+    "template": "drug_targets",
+    "question": "Which targets does Thyarorant inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/thyarorant",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Nuvin transporter 3",
+      "Teskelis receptor 3"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/nnt3",
+      "https://example.org/kgrag/id/target/tsr3"
+    ]
+  },
+  {
+    "id": "q02",
+    "category": "single-hop",
+    "template": "drug_targets",
+    "question": "Which targets does Corvoveninib inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/corvoveninib",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Vornan kinase 1"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/vnk1"
+    ]
+  },
+  {
+    "id": "q03",
+    "category": "single-hop",
+    "template": "drug_targets",
+    "question": "Which proteins are inhibited by LAB-2054?",
+    "entity": "https://example.org/kgrag/id/drug/ombrosaneastat",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Thyimane protease 4"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/tnp4"
+    ]
+  },
+  {
+    "id": "q04",
+    "category": "single-hop",
+    "template": "drug_targets",
+    "question": "Which targets does Quenisixumab inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/quenisixumab",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Teskelis receptor 3"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/tsr3"
+    ]
+  },
+  {
+    "id": "q05",
+    "category": "single-hop",
+    "template": "drug_targets",
+    "question": "Which targets does LAB-1595 inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/yulethorinib",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Ostas kinase 2"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/ssk2"
+    ]
+  },
+  {
+    "id": "q06",
+    "category": "single-hop",
+    "template": "drug_targets",
+    "question": "Which proteins are inhibited by Xalomumab?",
+    "entity": "https://example.org/kgrag/id/drug/xalomumab",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Kaelyven receptor 8"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/knr8"
+    ]
+  },
+  {
+    "id": "q07",
+    "category": "single-hop",
+    "template": "trial_drugs",
+    "question": "Which compounds were tested in ZIRITH?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2071",
+    "path": [
+      "^studiedIn"
+    ],
+    "gold": [
+      "Ploidixidone"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/ploidixidone"
+    ]
+  },
+  {
+    "id": "q08",
+    "category": "single-hop",
+    "template": "trial_drugs",
+    "question": "Which drugs were studied in the FENNIXIS?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2105",
+    "path": [
+      "^studiedIn"
+    ],
+    "gold": [
+      "Teskemoridone"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/teskemoridone"
+    ]
+  },
+  {
+    "id": "q09",
+    "category": "single-hop",
+    "template": "trial_drugs",
+    "question": "Which compounds were tested in SYN-2062?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2062",
+    "path": [
+      "^studiedIn"
+    ],
+    "gold": [
+      "Qarymelidone"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/qarymelidone"
+    ]
+  },
+  {
+    "id": "q10",
+    "category": "single-hop",
+    "template": "trial_drugs",
+    "question": "Which drugs were studied in the WEXAEM study?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2003",
+    "path": [
+      "^studiedIn"
+    ],
+    "gold": [
+      "Vorninenidone"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/vorninenidone"
+    ]
+  },
+  {
+    "id": "q11",
+    "category": "single-hop",
+    "template": "trial_drugs",
+    "question": "Which compounds were tested in WEXAENEL?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2088",
+    "path": [
+      "^studiedIn"
+    ],
+    "gold": [
+      "Ombrosaneastat",
+      "Teskuminib"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/ombrosaneastat",
+      "https://example.org/kgrag/id/drug/teskuminib"
+    ]
+  },
+  {
+    "id": "q12",
+    "category": "single-hop",
+    "template": "target_pathways",
+    "question": "Which pathways does Halvol protease 5 participate in?",
+    "entity": "https://example.org/kgrag/id/target/hlp5",
+    "path": [
+      "participatesIn"
+    ],
+    "gold": [
+      "Yulid signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/yulid"
+    ]
+  },
+  {
+    "id": "q13",
+    "category": "single-hop",
+    "template": "target_pathways",
+    "question": "Which pathways does Ivrur transporter 2 participate in?",
+    "entity": "https://example.org/kgrag/id/target/vrt2",
+    "path": [
+      "participatesIn"
+    ],
+    "gold": [
+      "Ombrekix signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/ombrekix"
+    ]
+  },
+  {
+    "id": "q14",
+    "category": "single-hop",
+    "template": "target_pathways",
+    "question": "Which pathways does HLP9 protein participate in?",
+    "entity": "https://example.org/kgrag/id/target/hlp9",
+    "path": [
+      "participatesIn"
+    ],
+    "gold": [
+      "Vornemane signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/vornemane"
+    ]
+  },
+  {
+    "id": "q15",
+    "category": "single-hop",
+    "template": "target_pathways",
+    "question": "Which pathways does Heskyl protease 4 participate in?",
+    "entity": "https://example.org/kgrag/id/target/hlp4",
+    "path": [
+      "participatesIn"
+    ],
+    "gold": [
+      "Zonelen signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/zonelen"
+    ]
+  },
+  {
+    "id": "q16",
+    "category": "single-hop",
+    "template": "target_pathways",
+    "question": "Which pathways does Corvivane phosphatase 6 participate in?",
+    "entity": "https://example.org/kgrag/id/target/cnp6",
+    "path": [
+      "participatesIn"
+    ],
+    "gold": [
+      "Qariris signalling pathway",
+      "Thyym signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/qariris",
+      "https://example.org/kgrag/id/pathway/thyym"
+    ]
+  },
+  {
+    "id": "q17",
+    "category": "two-hop",
+    "template": "drug_pathways",
+    "question": "Which pathways are targeted by Teskyxaneorant?",
+    "entity": "https://example.org/kgrag/id/drug/teskyxaneorant",
+    "path": [
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Rullaem signalling pathway",
+      "Yulid signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/rullaem",
+      "https://example.org/kgrag/id/pathway/yulid"
+    ]
+  },
+  {
+    "id": "q18",
+    "category": "two-hop",
+    "template": "drug_pathways",
+    "question": "Which pathway does LAB-1935 act on through its targets?",
+    "entity": "https://example.org/kgrag/id/drug/ploaexelinib",
+    "path": [
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Rullador signalling pathway",
+      "Xaleken signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/rullador",
+      "https://example.org/kgrag/id/pathway/xaleken"
+    ]
+  },
+  {
+    "id": "q19",
+    "category": "two-hop",
+    "template": "drug_pathways",
+    "question": "Which pathway does Quenonorumab act on through its targets?",
+    "entity": "https://example.org/kgrag/id/drug/quenonorumab",
+    "path": [
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Draser signalling pathway",
+      "Ombrekix signalling pathway",
+      "Rullador signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/draser",
+      "https://example.org/kgrag/id/pathway/ombrekix",
+      "https://example.org/kgrag/id/pathway/rullador"
+    ]
+  },
+  {
+    "id": "q20",
+    "category": "two-hop",
+    "template": "drug_pathways",
+    "question": "Which pathways are targeted by Qarymelidone?",
+    "entity": "https://example.org/kgrag/id/drug/qarymelidone",
+    "path": [
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Kaelenor signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/kaelenor"
+    ]
+  },
+  {
+    "id": "q21",
+    "category": "two-hop",
+    "template": "drug_pathways",
+    "question": "Which pathways are targeted by Vornudenorant?",
+    "entity": "https://example.org/kgrag/id/drug/vornudenorant",
+    "path": [
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Ombraem signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/ombraem"
+    ]
+  },
+  {
+    "id": "q22",
+    "category": "two-hop",
+    "template": "drug_pathways",
+    "question": "Which pathway does Yulevelumab act on through its targets?",
+    "entity": "https://example.org/kgrag/id/drug/yulevelumab",
+    "path": [
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Zonelen signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/zonelen"
+    ]
+  },
+  {
+    "id": "q23",
+    "category": "two-hop",
+    "template": "drug_trial_diseases",
+    "question": "Which diseases were investigated in trials of LAB-1306?",
+    "entity": "https://example.org/kgrag/id/drug/joryxelidone",
+    "path": [
+      "studiedIn",
+      "investigates"
+    ],
+    "gold": [
+      "Yulyk glycaemia"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/disease/yulyk-glycaemia"
+    ]
+  },
+  {
+    "id": "q24",
+    "category": "two-hop",
+    "template": "drug_trial_diseases",
+    "question": "Which diseases were investigated in trials of Zirukastat?",
+    "entity": "https://example.org/kgrag/id/drug/zirukastat",
+    "path": [
+      "studiedIn",
+      "investigates"
+    ],
+    "gold": [
+      "Kaelel enteritis"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/disease/kaelel-enteritis"
+    ]
+  },
+  {
+    "id": "q25",
+    "category": "two-hop",
+    "template": "drug_trial_diseases",
+    "question": "Which diseases were investigated in trials of LAB-1357?",
+    "entity": "https://example.org/kgrag/id/drug/ombroxumab",
+    "path": [
+      "studiedIn",
+      "investigates"
+    ],
+    "gold": [
+      "Ostaethor dementia",
+      "Zonael glycaemia"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/disease/ostaethor-dementia",
+      "https://example.org/kgrag/id/disease/zonael-glycaemia"
+    ]
+  },
+  {
+    "id": "q26",
+    "category": "two-hop",
+    "template": "drug_trial_diseases",
+    "question": "Which diseases were investigated in trials of LAB-1238?",
+    "entity": "https://example.org/kgrag/id/drug/vornudenorant",
+    "path": [
+      "studiedIn",
+      "investigates"
+    ],
+    "gold": [
+      "Heskiv cardiomyopathy",
+      "Movement disorder"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/disease/heskiv-cardiomyopathy",
+      "https://example.org/kgrag/id/disease/movement-disorder"
+    ]
+  },
+  {
+    "id": "q27",
+    "category": "two-hop",
+    "template": "drug_trial_diseases",
+    "question": "Which diseases were investigated in trials of Mirridelorant?",
+    "entity": "https://example.org/kgrag/id/drug/mirridelorant",
+    "path": [
+      "studiedIn",
+      "investigates"
+    ],
+    "gold": [
+      "Ostok colitis",
+      "Yulyk glycaemia"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/disease/ostok-colitis",
+      "https://example.org/kgrag/id/disease/yulyk-glycaemia"
+    ]
+  },
+  {
+    "id": "q28",
+    "category": "two-hop",
+    "template": "trial_targets",
+    "question": "Which targets are inhibited by drugs tested in the SYN-2070?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2070",
+    "path": [
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Ivraedor receptor 7",
+      "Mirrylor protease 3"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/mrp3",
+      "https://example.org/kgrag/id/target/vrr7"
+    ]
+  },
+  {
+    "id": "q29",
+    "category": "two-hop",
+    "template": "trial_targets",
+    "question": "Which targets are inhibited by drugs tested in the KAELUK?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2015",
+    "path": [
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Yulyl protease 5"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/llp5"
+    ]
+  },
+  {
+    "id": "q30",
+    "category": "two-hop",
+    "template": "trial_targets",
+    "question": "Which targets are inhibited by drugs tested in the HESKYX?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2021",
+    "path": [
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Brevun phosphatase 1",
+      "Ploam kinase 4"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/bnp1",
+      "https://example.org/kgrag/id/target/pmk4"
+    ]
+  },
+  {
+    "id": "q31",
+    "category": "two-hop",
+    "template": "trial_targets",
+    "question": "Which targets are inhibited by drugs tested in the TESKAETH trial?",
+    "entity": "https://example.org/kgrag/id/trial/syn-2031",
+    "path": [
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Corvyth receptor 2"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/chr2"
+    ]
+  },
+  {
+    "id": "q32",
+    "category": "multi-hop",
+    "template": "disease_trial_targets",
+    "question": "Which targets are inhibited by drugs studied in trials for Sarvakane cardiomyopathy?",
+    "entity": "https://example.org/kgrag/id/disease/sarvakane-cardiomyopathy",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Brevus receptor 3",
+      "Thyovel phosphatase 5"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/bsr3",
+      "https://example.org/kgrag/id/target/tlp5"
+    ]
+  },
+  {
+    "id": "q33",
+    "category": "multi-hop",
+    "template": "disease_trial_targets",
+    "question": "Which targets are inhibited by drugs studied in trials for Zonael glycaemia?",
+    "entity": "https://example.org/kgrag/id/disease/zonael-glycaemia",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Corvyth receptor 2",
+      "Xalov protease 2"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/chr2",
+      "https://example.org/kgrag/id/target/xvp2"
+    ]
+  },
+  {
+    "id": "q34",
+    "category": "multi-hop",
+    "template": "disease_trial_targets",
+    "question": "Which targets are inhibited by drugs studied in trials for RA?",
+    "entity": "https://example.org/kgrag/id/disease/rullokis-arthritis",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Brevun phosphatase 1",
+      "Corvivane phosphatase 6",
+      "Ivrel transporter 7"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/bnp1",
+      "https://example.org/kgrag/id/target/cnp6",
+      "https://example.org/kgrag/id/target/vlt7"
+    ]
+  },
+  {
+    "id": "q35",
+    "category": "multi-hop",
+    "template": "disease_trial_targets",
+    "question": "Which targets are inhibited by drugs studied in trials for OC?",
+    "entity": "https://example.org/kgrag/id/disease/ombrer-cardiomyopathy",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Vornan kinase 1"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/vnk1"
+    ]
+  },
+  {
+    "id": "q36",
+    "category": "multi-hop",
+    "template": "disease_trial_targets",
+    "question": "Which targets are inhibited by drugs studied in trials for Ivrusel ataxia?",
+    "entity": "https://example.org/kgrag/id/disease/ivrusel-ataxia",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Brevudane phosphatase 2",
+      "Halvenel phosphatase 9",
+      "Ivrur transporter 2",
+      "Quenemix transporter 2"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/bnp2",
+      "https://example.org/kgrag/id/target/hlp9",
+      "https://example.org/kgrag/id/target/qxt2",
+      "https://example.org/kgrag/id/target/vrt2"
+    ]
+  },
+  {
+    "id": "q37",
+    "category": "multi-hop",
+    "template": "disease_trial_targets",
+    "question": "Which targets are inhibited by drugs studied in trials for Quenisor arteritis?",
+    "entity": "https://example.org/kgrag/id/disease/quenisor-arteritis",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Vornan kinase 1"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/vnk1"
+    ]
+  },
+  {
+    "id": "q38",
+    "category": "multi-hop",
+    "template": "disease_trial_targets",
+    "question": "Which targets are inhibited by drugs studied in trials for HC?",
+    "entity": "https://example.org/kgrag/id/disease/heskiv-cardiomyopathy",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits"
+    ],
+    "gold": [
+      "Rullaedel transporter 4",
+      "Zonaemis transporter 2",
+      "Zonav kinase 3"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/rlt4",
+      "https://example.org/kgrag/id/target/zst2",
+      "https://example.org/kgrag/id/target/zvk3"
+    ]
+  },
+  {
+    "id": "q39",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathways are targeted by drugs tested in trials for patients with Quenuv vasculitis?",
+    "entity": "https://example.org/kgrag/id/disease/quenuv-vasculitis",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Drasonix signalling pathway",
+      "Yulid signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/drasonix",
+      "https://example.org/kgrag/id/pathway/yulid"
+    ]
+  },
+  {
+    "id": "q40",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathway is targeted by drugs studied in trials for Zonur colitis?",
+    "entity": "https://example.org/kgrag/id/disease/zonur-colitis",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Ombrekix signalling pathway",
+      "Pellanix signalling pathway",
+      "Qariris signalling pathway",
+      "Qaror signalling pathway",
+      "Teskal signalling pathway",
+      "Zonelen signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/ombrekix",
+      "https://example.org/kgrag/id/pathway/pellanix",
+      "https://example.org/kgrag/id/pathway/qariris",
+      "https://example.org/kgrag/id/pathway/qaror",
+      "https://example.org/kgrag/id/pathway/teskal",
+      "https://example.org/kgrag/id/pathway/zonelen"
+    ]
+  },
+  {
+    "id": "q41",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathway is targeted by drugs studied in trials for Fennaethix's lipidosis?",
+    "entity": "https://example.org/kgrag/id/disease/fennaethix-lipidosis",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Drasonix signalling pathway",
+      "Kaelenor signalling pathway",
+      "Qaraenis signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/drasonix",
+      "https://example.org/kgrag/id/pathway/kaelenor",
+      "https://example.org/kgrag/id/pathway/qaraenis"
+    ]
+  },
+  {
+    "id": "q42",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathway is targeted by drugs studied in trials for QA?",
+    "entity": "https://example.org/kgrag/id/disease/quenisor-arteritis",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Teskal signalling pathway",
+      "Vornemane signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/teskal",
+      "https://example.org/kgrag/id/pathway/vornemane"
+    ]
+  },
+  {
+    "id": "q43",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathway is targeted by drugs studied in trials for Corvylis glycaemia?",
+    "entity": "https://example.org/kgrag/id/disease/corvylis-glycaemia",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Kaelenor signalling pathway",
+      "Qaror signalling pathway",
+      "Thyym signalling pathway",
+      "Zonelen signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/kaelenor",
+      "https://example.org/kgrag/id/pathway/qaror",
+      "https://example.org/kgrag/id/pathway/thyym",
+      "https://example.org/kgrag/id/pathway/zonelen"
+    ]
+  },
+  {
+    "id": "q44",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathways are targeted by drugs tested in trials for patients with Fennumel arthritis?",
+    "entity": "https://example.org/kgrag/id/disease/fennumel-arthritis",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Ombraem signalling pathway",
+      "Qaror signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/ombraem",
+      "https://example.org/kgrag/id/pathway/qaror"
+    ]
+  },
+  {
+    "id": "q45",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathway is targeted by drugs studied in trials for Ombrer's cardiomyopathy?",
+    "entity": "https://example.org/kgrag/id/disease/ombrer-cardiomyopathy",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Teskal signalling pathway",
+      "Vornemane signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/teskal",
+      "https://example.org/kgrag/id/pathway/vornemane"
+    ]
+  },
+  {
+    "id": "q46",
+    "category": "multi-hop",
+    "template": "disease_trial_pathways",
+    "question": "Which pathway is targeted by drugs studied in trials for Zonael glycaemia?",
+    "entity": "https://example.org/kgrag/id/disease/zonael-glycaemia",
+    "path": [
+      "^investigates",
+      "^studiedIn",
+      "inhibits",
+      "participatesIn"
+    ],
+    "gold": [
+      "Kaelad signalling pathway",
+      "Rullaem signalling pathway",
+      "Zoniv signalling pathway"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/pathway/kaelad",
+      "https://example.org/kgrag/id/pathway/rullaem",
+      "https://example.org/kgrag/id/pathway/zoniv"
+    ]
+  },
+  {
+    "id": "q47",
+    "category": "multi-hop",
+    "template": "pathway_drug_diseases",
+    "question": "Which diseases were investigated in trials of drugs that inhibit targets in the Veleth signalling pathway?",
+    "entity": "https://example.org/kgrag/id/pathway/veleth",
+    "path": [
+      "^participatesIn",
+      "^inhibits",
+      "studiedIn",
+      "investigates"
+    ],
+    "gold": [
+      "Inflammatory bowel disorder",
+      "Ostaethor dementia",
+      "Yululor dementia"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/disease/inflammatory-bowel-disorder",
+      "https://example.org/kgrag/id/disease/ostaethor-dementia",
+      "https://example.org/kgrag/id/disease/yululor-dementia"
+    ]
+  },
+  {
+    "id": "q48",
+    "category": "multi-hop",
+    "template": "pathway_drug_diseases",
+    "question": "Which diseases were investigated in trials of drugs that inhibit targets in the Qarinor signalling pathway?",
+    "entity": "https://example.org/kgrag/id/pathway/qarinor",
+    "path": [
+      "^participatesIn",
+      "^inhibits",
+      "studiedIn",
+      "investigates"
+    ],
+    "gold": [
+      "Corvydix palsy",
+      "Movement disorder",
+      "Yululor dementia"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/disease/corvydix-palsy",
+      "https://example.org/kgrag/id/disease/movement-disorder",
+      "https://example.org/kgrag/id/disease/yululor-dementia"
+    ]
+  },
+  {
+    "id": "q49",
+    "category": "hierarchy",
+    "template": "group_trial_drugs",
+    "question": "Which drugs were studied in trials for Cardiomyopathy?",
+    "entity": "https://example.org/kgrag/id/disease/cardiomyopathy",
+    "path": [
+      "^investigates",
+      "^studiedIn"
+    ],
+    "gold": [
+      "Brevasixinib",
+      "Corvoveninib",
+      "Halvamaneidone",
+      "Kaelovorant",
+      "Quenaethumab",
+      "Vornudenorant"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/brevasixinib",
+      "https://example.org/kgrag/id/drug/corvoveninib",
+      "https://example.org/kgrag/id/drug/halvamaneidone",
+      "https://example.org/kgrag/id/drug/kaelovorant",
+      "https://example.org/kgrag/id/drug/quenaethumab",
+      "https://example.org/kgrag/id/drug/vornudenorant"
+    ]
+  },
+  {
+    "id": "q50",
+    "category": "hierarchy",
+    "template": "group_trial_drugs",
+    "question": "Which drugs were studied in trials for Pulmonary fibrosis?",
+    "entity": "https://example.org/kgrag/id/disease/pulmonary-fibrosis",
+    "path": [
+      "^investigates",
+      "^studiedIn"
+    ],
+    "gold": [
+      "Brevythinib",
+      "Halvoxelinib",
+      "Pellevorant",
+      "Quenonorumab",
+      "Xalemixidone",
+      "Zonulenastat",
+      "Zonysaneinib"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/brevythinib",
+      "https://example.org/kgrag/id/drug/halvoxelinib",
+      "https://example.org/kgrag/id/drug/pellevorant",
+      "https://example.org/kgrag/id/drug/quenonorumab",
+      "https://example.org/kgrag/id/drug/xalemixidone",
+      "https://example.org/kgrag/id/drug/zonulenastat",
+      "https://example.org/kgrag/id/drug/zonysaneinib"
+    ]
+  },
+  {
+    "id": "q51",
+    "category": "hierarchy",
+    "template": "group_trial_drugs",
+    "question": "Which drugs were studied in trials for Vascular inflammation?",
+    "entity": "https://example.org/kgrag/id/disease/vascular-inflammation",
+    "path": [
+      "^investigates",
+      "^studiedIn"
+    ],
+    "gold": [
+      "Corvoveninib",
+      "Ivremelumab",
+      "Quenaethumab",
+      "Vornirisinib"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/corvoveninib",
+      "https://example.org/kgrag/id/drug/ivremelumab",
+      "https://example.org/kgrag/id/drug/quenaethumab",
+      "https://example.org/kgrag/id/drug/vornirisinib"
+    ]
+  },
+  {
+    "id": "q52",
+    "category": "hierarchy",
+    "template": "group_trial_drugs",
+    "question": "Which drugs were studied in trials for Autoimmune arthritis?",
+    "entity": "https://example.org/kgrag/id/disease/autoimmune-arthritis",
+    "path": [
+      "^investigates",
+      "^studiedIn"
+    ],
+    "gold": [
+      "Brevirumab",
+      "Halvuxelumab",
+      "Ivrethidone",
+      "Plookidone",
+      "Plounumab",
+      "Qarymelidone",
+      "Wexaevenorant",
+      "Zonemidone"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/brevirumab",
+      "https://example.org/kgrag/id/drug/halvuxelumab",
+      "https://example.org/kgrag/id/drug/ivrethidone",
+      "https://example.org/kgrag/id/drug/plookidone",
+      "https://example.org/kgrag/id/drug/plounumab",
+      "https://example.org/kgrag/id/drug/qarymelidone",
+      "https://example.org/kgrag/id/drug/wexaevenorant",
+      "https://example.org/kgrag/id/drug/zonemidone"
+    ]
+  },
+  {
+    "id": "q53",
+    "category": "hierarchy",
+    "template": "group_trial_drugs",
+    "question": "Which drugs were studied in trials for Hepatic fibrosis?",
+    "entity": "https://example.org/kgrag/id/disease/hepatic-fibrosis",
+    "path": [
+      "^investigates",
+      "^studiedIn"
+    ],
+    "gold": [
+      "Ivralixastat",
+      "Thyarorant",
+      "Wexuvorant",
+      "Xalemixidone",
+      "Yulethorinib"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/drug/ivralixastat",
+      "https://example.org/kgrag/id/drug/thyarorant",
+      "https://example.org/kgrag/id/drug/wexuvorant",
+      "https://example.org/kgrag/id/drug/xalemixidone",
+      "https://example.org/kgrag/id/drug/yulethorinib"
+    ]
+  },
+  {
+    "id": "q54",
+    "category": "hierarchy",
+    "template": "group_trials",
+    "question": "Which trials investigate a form of Vascular inflammation?",
+    "entity": "https://example.org/kgrag/id/disease/vascular-inflammation",
+    "path": [
+      "^investigates"
+    ],
+    "gold": [
+      "DRASEKANE",
+      "NUVUM",
+      "OSTOV",
+      "PLOOTHOR",
+      "TESKASIS",
+      "XALYRIX"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/trial/syn-2037",
+      "https://example.org/kgrag/id/trial/syn-2038",
+      "https://example.org/kgrag/id/trial/syn-2039",
+      "https://example.org/kgrag/id/trial/syn-2120",
+      "https://example.org/kgrag/id/trial/syn-2121",
+      "https://example.org/kgrag/id/trial/syn-2123"
+    ]
+  },
+  {
+    "id": "q55",
+    "category": "hierarchy",
+    "template": "group_trials",
+    "question": "Which trials investigate a form of Hepatic fibrosis?",
+    "entity": "https://example.org/kgrag/id/disease/hepatic-fibrosis",
+    "path": [
+      "^investigates"
+    ],
+    "gold": [
+      "HESKOV",
+      "IVRONIS",
+      "OMBRUTHOR",
+      "QAROM",
+      "TESKUK"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/trial/syn-2042",
+      "https://example.org/kgrag/id/trial/syn-2049",
+      "https://example.org/kgrag/id/trial/syn-2050",
+      "https://example.org/kgrag/id/trial/syn-2051",
+      "https://example.org/kgrag/id/trial/syn-2124"
+    ]
+  },
+  {
+    "id": "q56",
+    "category": "hierarchy",
+    "template": "group_trials",
+    "question": "Which trials investigate a form of Cardiomyopathy?",
+    "entity": "https://example.org/kgrag/id/disease/cardiomyopathy",
+    "path": [
+      "^investigates"
+    ],
+    "gold": [
+      "FENNEDEL",
+      "OMBRASIS",
+      "OSTAETHEN",
+      "OSTALIS",
+      "OSTINEL",
+      "PLOIV",
+      "SARVAEXOR"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/trial/syn-2018",
+      "https://example.org/kgrag/id/trial/syn-2036",
+      "https://example.org/kgrag/id/trial/syn-2065",
+      "https://example.org/kgrag/id/trial/syn-2066",
+      "https://example.org/kgrag/id/trial/syn-2076",
+      "https://example.org/kgrag/id/trial/syn-2106",
+      "https://example.org/kgrag/id/trial/syn-2122"
+    ]
+  },
+  {
+    "id": "q57",
+    "category": "hierarchy",
+    "template": "group_trials",
+    "question": "Which trials investigate a form of Pulmonary fibrosis?",
+    "entity": "https://example.org/kgrag/id/disease/pulmonary-fibrosis",
+    "path": [
+      "^investigates"
+    ],
+    "gold": [
+      "DRASEXEN",
+      "HESKYX",
+      "KAELAED",
+      "MIRRYTH",
+      "OSTIX",
+      "OSTORANE",
+      "PELLAV"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/trial/syn-2013",
+      "https://example.org/kgrag/id/trial/syn-2020",
+      "https://example.org/kgrag/id/trial/syn-2021",
+      "https://example.org/kgrag/id/trial/syn-2027",
+      "https://example.org/kgrag/id/trial/syn-2040",
+      "https://example.org/kgrag/id/trial/syn-2045",
+      "https://example.org/kgrag/id/trial/syn-2046"
+    ]
+  },
+  {
+    "id": "q58",
+    "category": "misspelled",
+    "template": "noisy_drug_targets",
+    "question": "Which targets does Corvkeornt inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/corvekorant",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Ziram transporter 5"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/zmt5"
+    ]
+  },
+  {
+    "id": "q59",
+    "category": "misspelled",
+    "template": "noisy_drug_targets",
+    "question": "Which targets does Ivrethdine inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/ivrethidone",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Corvivane phosphatase 6"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/cnp6"
+    ]
+  },
+  {
+    "id": "q60",
+    "category": "misspelled",
+    "template": "noisy_drug_targets",
+    "question": "Which targets does Pelelvornt inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/pellevorant",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Zonalel transporter 6"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/zlt6"
+    ]
+  },
+  {
+    "id": "q61",
+    "category": "misspelled",
+    "template": "noisy_drug_targets",
+    "question": "Which targets does Weodasatt inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/wexodastat",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Yulyl protease 5"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/llp5"
+    ]
+  },
+  {
+    "id": "q62",
+    "category": "misspelled",
+    "template": "noisy_drug_targets",
+    "question": "Which targets does Coviroarnt inhibit?",
+    "entity": "https://example.org/kgrag/id/drug/corvirorant",
+    "path": [
+      "inhibits"
+    ],
+    "gold": [
+      "Vorneror kinase 8",
+      "Zonalel transporter 6"
+    ],
+    "gold_iris": [
+      "https://example.org/kgrag/id/target/vrk8",
+      "https://example.org/kgrag/id/target/zlt6"
+    ]
+  }
+]

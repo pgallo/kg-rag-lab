@@ -1,0 +1,106 @@
+@prefix kg:   <https://example.org/kgrag/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# Small synthetic biomedical ontology for the kg-rag-lab.
+# Disease subtypes are modelled as OWL classes (rdfs:subClassOf kg:Disease) and are
+# also used as the object of kg:investigates (OWL 2 punning), which keeps the hierarchy
+# queryable with plain RDFS reasoning.
+
+<https://example.org/kgrag/ontology> a owl:Ontology ;
+    rdfs:label "kg-rag-lab synthetic biomedical ontology" ;
+    owl:versionInfo "2026.1" .
+
+# ---------------------------------------------------------------- classes
+
+kg:Entity a owl:Class ;
+    rdfs:label "Entity" .
+
+kg:Drug a owl:Class ;
+    rdfs:subClassOf kg:Entity ;
+    rdfs:label "Drug" ;
+    skos:altLabel "compound", "molecule", "agent" .
+
+kg:Protein a owl:Class ;
+    rdfs:subClassOf kg:Entity ;
+    rdfs:label "Protein" .
+
+kg:Target a owl:Class ;
+    rdfs:subClassOf kg:Protein ;
+    rdfs:label "Target" ;
+    skos:altLabel "target protein", "drug target" .
+
+kg:Disease a owl:Class ;
+    rdfs:subClassOf kg:Entity ;
+    rdfs:label "Disease" ;
+    skos:altLabel "condition", "disorder", "indication" .
+
+kg:Pathway a owl:Class ;
+    rdfs:subClassOf kg:Entity ;
+    rdfs:label "Pathway" ;
+    skos:altLabel "signalling pathway" .
+
+kg:ClinicalTrial a owl:Class ;
+    rdfs:subClassOf kg:Entity ;
+    rdfs:label "Clinical trial" ;
+    skos:altLabel "trial", "study" .
+
+kg:Publication a owl:Class ;
+    rdfs:subClassOf kg:Entity ;
+    rdfs:label "Publication" ;
+    skos:altLabel "abstract", "paper" .
+
+# ---------------------------------------------------------------- object properties
+
+kg:inhibits a owl:ObjectProperty ;
+    rdfs:label "inhibits" ;
+    rdfs:domain kg:Drug ;
+    rdfs:range kg:Target .
+
+kg:associatedWith a owl:ObjectProperty ;
+    rdfs:label "is associated with" ;
+    rdfs:domain kg:Target ;
+    rdfs:range kg:Disease .
+
+kg:participatesIn a owl:ObjectProperty ;
+    rdfs:label "participates in" ;
+    rdfs:domain kg:Protein ;
+    rdfs:range kg:Pathway .
+
+kg:studiedIn a owl:ObjectProperty ;
+    rdfs:label "was studied in" ;
+    rdfs:domain kg:Drug ;
+    rdfs:range kg:ClinicalTrial .
+
+kg:investigates a owl:ObjectProperty ;
+    rdfs:label "investigates" ;
+    rdfs:domain kg:ClinicalTrial ;
+    rdfs:range kg:Disease .
+
+kg:mentions a owl:ObjectProperty ;
+    rdfs:label "mentions" ;
+    rdfs:domain kg:Publication ;
+    rdfs:range kg:Entity .
+
+rdfs:subClassOf rdfs:label "is a subtype of" .
+
+kg:asserts a owl:ObjectProperty ;
+    rdfs:label "asserts" ;
+    rdfs:comment "Links a publication to a reified rdf:Statement it states (sentence-level provenance)." ;
+    rdfs:domain kg:Publication ;
+    rdfs:range rdf:Statement .
+
+# ---------------------------------------------------------------- datatype properties
+
+kg:phase a owl:DatatypeProperty ;
+    rdfs:label "phase" ;
+    rdfs:domain kg:ClinicalTrial ;
+    rdfs:range xsd:integer .
+
+kg:abstractText a owl:DatatypeProperty ;
+    rdfs:label "abstract text" ;
+    rdfs:domain kg:Publication ;
+    rdfs:range xsd:string .
